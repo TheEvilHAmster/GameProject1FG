@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - flashlight
+  - Enter
+  - Exit
   layers:
   - Default
   - TransparentFX
