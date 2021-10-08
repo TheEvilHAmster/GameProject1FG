@@ -9,10 +9,10 @@ public class ExitRoom : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        StartCoroutine(OnEnterRoom());
+        StartCoroutine(OnExitRoom());
     }
 
-    IEnumerator OnEnterRoom()
+    IEnumerator OnExitRoom()
     {
         yield return new WaitForSeconds(0);
         TurnOffLights();
