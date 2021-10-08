@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.Rendering.Universal;
 using UnityEngine.Serialization;
 
 public class Flashlight : MonoBehaviour
@@ -46,7 +47,12 @@ public class Flashlight : MonoBehaviour
         if (Input.GetButton("Fire2"))
         {
             gameObject.SetActive(true);
-
+            if (batteryLife <1)
+            {
+                
+                // Light2D flashlightLigt = gameObject.GetComponentInChildren<GameObject>().gameObject.GetComponent<Light2D>();
+                // flashlightLigt.pointLightOuterRadius = 0;
+            }
             
         }
         else
