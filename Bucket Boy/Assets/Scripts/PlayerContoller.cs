@@ -3,19 +3,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.UIElements;
 
+public enum LookingDir
+{
+    Up,
+    Down,
+    Left,
+    Right
+        
+}
 public class PlayerContoller : MonoBehaviour
 {
-    
-    enum LookingDir
-    {
-        Up,
-        Down,
-        Left,
-        Right
-        
-    }
-    
     [SerializeField]private float jumpforce = 1f;
     private Rigidbody2D _body;
     private bool flashlightSpawning;
@@ -24,6 +23,7 @@ public class PlayerContoller : MonoBehaviour
     private LookingDir playerLookingDir = LookingDir.Right;
     [SerializeField] private GameObject flashlight;
     private Vector2 spawnPosition;
+
     private void Update()
     {
         float movement = Input.GetAxisRaw("Horizontal");
@@ -47,7 +47,7 @@ public class PlayerContoller : MonoBehaviour
 
         if (_body.velocity.x > -0.01f)
         {
-            playerLookingDir = playerLookingDir = LookingDir.Left;
+            playerLookingDir = LookingDir.Left;
         }
 
         if (Input.GetButton("Fire2"))
@@ -61,5 +61,11 @@ public class PlayerContoller : MonoBehaviour
     {
         _transform = transform;
         _body = GetComponent<Rigidbody2D>();
+    }
+
+    public void PlayerLookingDirectionSight(out LookingDir lookingDir, out Vector3 position)
+    {
+        lookingDir = playerLookingDir;
+        position = transform.position;
     }
 }
