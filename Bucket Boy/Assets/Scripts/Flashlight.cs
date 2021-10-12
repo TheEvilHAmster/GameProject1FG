@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Experimental.Rendering.Universal;
+using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
 
 public class Flashlight : MonoBehaviour
@@ -72,4 +73,10 @@ public class Flashlight : MonoBehaviour
         rigidBodyofParent = playerTransform.GetComponent<Rigidbody2D>();
         bodyOfFlashligt = transform.GetComponent<Rigidbody2D>();
     }
+
+    public void PlayerDies()
+    {
+        SceneManager.LoadScene(2);
+    }
+    
 }
