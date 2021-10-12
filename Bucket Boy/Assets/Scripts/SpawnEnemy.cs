@@ -24,9 +24,9 @@ public class SpawnEnemy : MonoBehaviour
             Debug.Log(randomY);
             
             GameObject a = Instantiate(enemyPrefab) as GameObject;
-            //fireLocation = GameObject.FindWithTag("Fire").transform.position;
+            
             a.transform.position = new Vector3(x, y, 0);
-            //a.transform.position = fireLocation;
+            
         }
     }
 
