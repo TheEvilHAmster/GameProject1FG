@@ -4,16 +4,20 @@ using UnityEngine;
 
 public class PlayerSensors : MonoBehaviour
 {
-public float sightDistance = 5f; 
+    public float sightDistance = 5f; 
     public Rigidbody2D playerBody;
     private Vector3 oldPlayerPos;
     private Vector3 newPlayerPos;
-    public SpringJoint2D sprintjoint2D;
+    public FixedJoint2D fixedJoint2D;
+    private bool isFacingLeft;
+    private Vector2 facingDirection;
+    public GameObject Moveable; 
 
     void Start() 
     {
         oldPlayerPos = this.transform.position;
-        sprintjoint2D.enabled = false;   
+        fixedJoint2D.enabled = false;
+        isFacingLeft = false;   
     }
     void Update() 
     {
@@ -23,19 +27,27 @@ public float sightDistance = 5f;
         {
             PlayerSight();
         } else {
-            sprintjoint2D.enabled = false;
+            fixedJoint2D.enabled = false;
             FacingDirection();
         }
     }
 
     private void PlayerSight()
     {
-        
         Vector3 currentPos = this.transform.position;
-        currentPos.x += 1.5f;
+        
+        if (isFacingLeft == true)
+        {
+            facingDirection = Vector2.left;
+            currentPos.x -= 1.5f;
+        } else {
+            facingDirection = Vector2.right;
+            currentPos.x += 1.5f;
+        }
+
         RaycastHit2D environmentInfo = Physics2D.Raycast(
             currentPos, 
-            Vector2.right, 
+            facingDirection, 
             sightDistance);
 
         if (environmentInfo.collider == true) 
@@ -43,7 +55,9 @@ public float sightDistance = 5f;
             if (environmentInfo.collider.tag == "Moveable")
             {
                 Debug.Log("A MOVEABLE");
-                sprintjoint2D.enabled = true;
+                fixedJoint2D.enabled = true;
+                Moveable.GetComponent<FixedJoint2D>().enabled = true;
+                Moveable.GetComponent<FixedJoint2D>().connectedBody = playerBody;
                 //transform.Translate(
                 //    Vector2.right * enemySpeed * Time.deltaTime);
             }   
@@ -57,19 +71,21 @@ public float sightDistance = 5f;
         if (newPlayerPos.x < oldPlayerPos.x)
         {
             this.transform.localRotation = Quaternion.Euler(0, 180, 0);
+            isFacingLeft = true;
         }
         else if (newPlayerPos.x > oldPlayerPos.x) 
         {
             this.transform.localRotation = Quaternion.Euler(0, 0, 0);
+            isFacingLeft = false;
         }
         oldPlayerPos = this.transform.position;
     }
 
-    void OnDrawGizmos() 
+    /*void OnDrawGizmos() 
     {
         Gizmos.color = Color.green;
         Gizmos.DrawLine(transform.position, Vector2.right * sightDistance);
-    }
+    }*/
     
     
     /*

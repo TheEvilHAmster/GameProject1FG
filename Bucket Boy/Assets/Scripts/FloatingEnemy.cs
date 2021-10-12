@@ -32,7 +32,7 @@ public class FloatingEnemy : MonoBehaviour
         
         // Check if player is close enough 
         // to the enemy to make the enemy initialize a chase
-        if(distToPlayer < enemyPerimeterRadius)
+        if (distToPlayer < enemyPerimeterRadius)
         {
             if (newPlayerPosition.x < oldPlayerPosition.x)
             {
