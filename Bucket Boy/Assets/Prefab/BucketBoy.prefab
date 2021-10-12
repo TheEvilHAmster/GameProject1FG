@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4249985921606481597}
   - component: {fileID: 5405818136767976511}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Flashlight Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84,7 +84,7 @@ GameObject:
   - component: {fileID: 3128522148130792986}
   - component: {fileID: 6084141617007668960}
   - component: {fileID: 4219617877641043623}
-  m_Layer: 8
+  m_Layer: 7
   m_Name: flashlight1
   m_TagString: flashlight
   m_Icon: {fileID: 0}
@@ -205,7 +205,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8367397496960094112}
   - component: {fileID: 5516902934466754618}
-  m_Layer: 8
+  m_Layer: 7
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -287,7 +287,7 @@ GameObject:
   m_Component:
   - component: {fileID: 998062572400123830}
   - component: {fileID: 643778280347575542}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Point Light 2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -358,7 +358,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 739250778459452643}
-  m_Layer: 8
+  m_Layer: 7
   m_Name: lightpoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -395,7 +395,7 @@ GameObject:
   - component: {fileID: 1924910524869066530}
   - component: {fileID: 6402310685325315321}
   - component: {fileID: 1379954447362714155}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: BucketBoy
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -522,6 +522,9 @@ MonoBehaviour:
   movementSpeed: 7
   flashlight: {fileID: 2672485184326825026}
   animator: {fileID: 0}
+  furnitureLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!114 &6402310685325315321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -535,7 +538,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sightDistance: 2
-  playerBody: {fileID: 0}
+  playerBody: {fileID: 246359265472094079}
   fixedJoint2D: {fileID: 0}
   Moveable: {fileID: 0}
 --- !u!95 &1379954447362714155
