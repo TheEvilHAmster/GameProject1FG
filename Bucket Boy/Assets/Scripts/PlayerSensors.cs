@@ -27,7 +27,7 @@ public class PlayerSensors : MonoBehaviour
         {
             PlayerSight();
         } else {
-            fixedJoint2D.enabled = false;
+            //fixedJoint2D.enabled = false;
             FacingDirection();
         }
     }
