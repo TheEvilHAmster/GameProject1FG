@@ -10,7 +10,12 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989143562557565}
   - component: {fileID: 6638989143562557562}
-  m_Layer: 0
+  - component: {fileID: 1203022477}
+  - component: {fileID: 1203022478}
+  - component: {fileID: 1203022479}
+  - component: {fileID: 1203022480}
+  - component: {fileID: 1203022481}
+  m_Layer: 6
   m_Name: room 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88,6 +93,136 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1203022477
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989143562557563}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -9.026725, y: -3.5143957}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.8}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.1466503, y: 3.7712078}
+  m_EdgeRadius: 0
+--- !u!61 &1203022478
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989143562557563}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -9.050771, y: 3.9476767}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.8}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.0984592, y: 2.904646}
+  m_EdgeRadius: 0
+--- !u!61 &1203022479
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989143562557563}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 9.050771, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.8}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.0984592, y: 10.8}
+  m_EdgeRadius: 0
+--- !u!61 &1203022480
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989143562557563}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -5.6567326}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.8}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 19.2, y: 1.0270958}
+  m_EdgeRadius: 0
+--- !u!61 &1203022481
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989143562557563}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 5.0549517}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.8}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 19.2, y: 0.6900959}
+  m_EdgeRadius: 0
 --- !u!1 &6638989143589351585
 GameObject:
   m_ObjectHideFlags: 0
@@ -98,7 +233,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989143589351587}
   - component: {fileID: 6638989143589351584}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Roof
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -159,7 +294,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 38ef62a22b266fc4aa8f8988e0c7851a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f26fd0653a00f8840817f520e6ee0eda, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -180,7 +315,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989143596131632}
   - component: {fileID: 6638989143596131633}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Small_bed (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -262,7 +397,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989143618253571}
   - component: {fileID: 6638989143618253568}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vent 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -320,10 +455,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: aaeedd07aea268c4d989aa66f603d806, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 82df929c1ddc04d4e8ea2b2b0e320b98, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -344,7 +479,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989143631076070}
   - component: {fileID: 6638989143631076071}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Toilet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -402,8 +537,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 14a226e0e6f631b4bbbea6583a9e3793, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -426,7 +561,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989143639567579}
   - component: {fileID: 6638989143639567576}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: vent asset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -484,8 +619,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8043707b89317374697fb75fc3d22ba8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -508,7 +643,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989143654455463}
   - component: {fileID: 6638989143654455460}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stairs Top L (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -569,7 +704,7 @@ SpriteRenderer:
   m_SortingLayerID: 523447151
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5ad59a671b4e5ab4baf56c7b89e8abd4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 202e689c68f8e0a43b3513f7e097a037, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -589,7 +724,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6638989143660525403}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: House
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -643,7 +778,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989143664272483}
   - component: {fileID: 6638989143664272480}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: small_book_self (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -701,8 +836,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1851939855
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 737abd58386fb03498e6eadf4d1dcd27, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -725,7 +860,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989143685248033}
   - component: {fileID: 6638989143685248046}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: cardboard_box (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -786,7 +921,7 @@ SpriteRenderer:
   m_SortingLayerID: 523447151
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 93ee7d5f46dc86e4b89b41377dad1922, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 434dada0f98028c409bccce1185383a7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -807,7 +942,10 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989143695819769}
   - component: {fileID: 6638989143695819750}
-  m_Layer: 0
+  - component: {fileID: 1065387553}
+  - component: {fileID: 1065387554}
+  - component: {fileID: 1065387555}
+  m_Layer: 6
   m_Name: room 9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -888,6 +1026,84 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1065387553
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989143695819751}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 5.1601224}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.8}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 19.2, y: 0.47975636}
+  m_EdgeRadius: 0
+--- !u!61 &1065387554
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989143695819751}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -9.552441, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.8}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.2127724, y: 10.8}
+  m_EdgeRadius: 0
+--- !u!61 &1065387555
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989143695819751}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 9.023022, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.8}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.1539583, y: 10.8}
+  m_EdgeRadius: 0
 --- !u!1 &6638989143709687312
 GameObject:
   m_ObjectHideFlags: 0
@@ -898,7 +1114,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989143709687314}
   - component: {fileID: 6638989143709687315}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mirror asset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -956,8 +1172,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: fa47a935fe549ac49b62fbae6c7a11bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -980,7 +1196,12 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989143714875472}
   - component: {fileID: 6638989143714875473}
-  m_Layer: 0
+  - component: {fileID: 258004027}
+  - component: {fileID: 258004028}
+  - component: {fileID: 258004029}
+  - component: {fileID: 258004030}
+  - component: {fileID: 258004031}
+  m_Layer: 6
   m_Name: room 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1056,6 +1277,136 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &258004027
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989143714875486}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -5.612539, y: 6.6092343}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.8}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7.888604, y: 3.299224}
+  m_EdgeRadius: 0
+--- !u!61 &258004028
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989143714875486}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 5.1160264, y: 5.3176756}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.8}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8.967948, y: 0.7161069}
+  m_EdgeRadius: 0
+--- !u!61 &258004029
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989143714875486}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -5.357066}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.8}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 19.2, y: 0.7161045}
+  m_EdgeRadius: 0
+--- !u!61 &258004030
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989143714875486}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 9.023214, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.8}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.1535721, y: 10.8}
+  m_EdgeRadius: 0
+--- !u!61 &258004031
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989143714875486}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -9.066391, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.8}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.0672188, y: 10.8}
+  m_EdgeRadius: 0
 --- !u!1 &6638989143766912304
 GameObject:
   m_ObjectHideFlags: 0
@@ -1066,7 +1417,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989143766912306}
   - component: {fileID: 6638989143766912307}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vent 5 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1124,10 +1475,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f4ac415a90c497545837a09b87129091, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e5fd2ce5d075f584fa32f2ce9691fe65, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1148,7 +1499,11 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989143778198757}
   - component: {fileID: 6638989143778198754}
-  m_Layer: 0
+  - component: {fileID: 1726774473}
+  - component: {fileID: 1726774474}
+  - component: {fileID: 1726774475}
+  - component: {fileID: 1726774476}
+  m_Layer: 6
   m_Name: room 12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1214,7 +1569,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3c647284eb8cb7d47850bf76c073964a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2d3ac7d78a2f6e44e99786da86033c76, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1225,6 +1580,110 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1726774473
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989143778198755}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -9.586962, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 5.97}
+    newSize: {x: 19.2, y: 5.97}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.998992, y: 5.97}
+  m_EdgeRadius: 0
+--- !u!61 &1726774474
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989143778198755}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -2.8371868}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 5.97}
+    newSize: {x: 19.2, y: 5.97}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 19.2, y: 0.29562688}
+  m_EdgeRadius: 0
+--- !u!61 &1726774475
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989143778198755}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 9.058327, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 5.97}
+    newSize: {x: 19.2, y: 5.97}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.0833464, y: 5.97}
+  m_EdgeRadius: 0
+--- !u!61 &1726774476
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989143778198755}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 2.8162022}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 5.97}
+    newSize: {x: 19.2, y: 5.97}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 19.2, y: 0.33759618}
+  m_EdgeRadius: 0
 --- !u!1 &6638989143795290530
 GameObject:
   m_ObjectHideFlags: 0
@@ -1235,7 +1694,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989143795290532}
   - component: {fileID: 6638989143795290533}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Master_bed (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1317,7 +1776,12 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989143800719651}
   - component: {fileID: 6638989143800719648}
-  m_Layer: 0
+  - component: {fileID: 904113759}
+  - component: {fileID: 904113760}
+  - component: {fileID: 904113761}
+  - component: {fileID: 904113762}
+  - component: {fileID: 904113763}
+  m_Layer: 6
   m_Name: room 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1385,7 +1849,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: a4a13c813d3d576408ee2fb2c60f6949, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 83c4f96eefafffd449512bde75a42177, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1396,6 +1860,136 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &904113759
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989143800719649}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -9.05307, y: 4.6716638}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 12.85}
+    newSize: {x: 19.2, y: 12.85}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.0938606, y: 3.506673}
+  m_EdgeRadius: 0
+--- !u!61 &904113760
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989143800719649}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 7.653641, y: -6.678087}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 12.85}
+    newSize: {x: 19.2, y: 12.85}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.8927183, y: 1.2906246}
+  m_EdgeRadius: 0
+--- !u!61 &904113761
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989143800719649}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -6.8416324, y: 6.4984026}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 12.85}
+    newSize: {x: 19.2, y: 12.85}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.516736, y: 0.6916957}
+  m_EdgeRadius: 0
+--- !u!61 &904113762
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989143800719649}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 9.053066, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 12.85}
+    newSize: {x: 19.2, y: 12.85}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.0938673, y: 12.85}
+  m_EdgeRadius: 0
+--- !u!61 &904113763
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989143800719649}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -9.001242, y: -4.372201}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 12.85}
+    newSize: {x: 19.2, y: 12.85}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.1975174, y: 4.105599}
+  m_EdgeRadius: 0
 --- !u!1 &6638989143834776113
 GameObject:
   m_ObjectHideFlags: 0
@@ -1406,7 +2000,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989143834776115}
   - component: {fileID: 6638989143834776112}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stairs Top R (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1467,7 +2061,7 @@ SpriteRenderer:
   m_SortingLayerID: 523447151
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 969bcbed6d1ddd348be5f7d73ed57690, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3a13e8f49be25054ab7b086d5db6ef5d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1488,7 +2082,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989143847085636}
   - component: {fileID: 6638989143847085637}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Door (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1546,8 +2140,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: fd81efbba3b336443905e44c54f6feb6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1570,7 +2164,11 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989143865795413}
   - component: {fileID: 6638989143865795410}
-  m_Layer: 0
+  - component: {fileID: 933872367}
+  - component: {fileID: 933872368}
+  - component: {fileID: 933872369}
+  - component: {fileID: 933872370}
+  m_Layer: 6
   m_Name: room 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1634,7 +2232,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: a4a13c813d3d576408ee2fb2c60f6949, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 83c4f96eefafffd449512bde75a42177, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1645,6 +2243,110 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &933872367
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989143865795411}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -9.381323, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 12.85}
+    newSize: {x: 19.2, y: 12.85}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.7503881, y: 12.85}
+  m_EdgeRadius: 0
+--- !u!61 &933872368
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989143865795411}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 6.325346}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 12.85}
+    newSize: {x: 19.2, y: 12.85}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 19.2, y: 0.60608244}
+  m_EdgeRadius: 0
+--- !u!61 &933872369
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989143865795411}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 9.035795, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 12.85}
+    newSize: {x: 19.2, y: 12.85}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.1284094, y: 12.85}
+  m_EdgeRadius: 0
+--- !u!61 &933872370
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989143865795411}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 4.1982775, y: -6.243991}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 12.85}
+    newSize: {x: 19.2, y: 12.85}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 10.803446, y: 0.3620186}
+  m_EdgeRadius: 0
 --- !u!1 &6638989143869255653
 GameObject:
   m_ObjectHideFlags: 0
@@ -1655,7 +2357,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989143869255655}
   - component: {fileID: 6638989143869255652}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: electric box asset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1737,7 +2439,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989143873912282}
   - component: {fileID: 6638989143873912283}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: cardboard_box (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1798,7 +2500,7 @@ SpriteRenderer:
   m_SortingLayerID: 523447151
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 93ee7d5f46dc86e4b89b41377dad1922, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 434dada0f98028c409bccce1185383a7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1819,7 +2521,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989143882835413}
   - component: {fileID: 6638989143882835410}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: cardboard_box (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1880,7 +2582,7 @@ SpriteRenderer:
   m_SortingLayerID: 523447151
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 93ee7d5f46dc86e4b89b41377dad1922, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 434dada0f98028c409bccce1185383a7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1901,7 +2603,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989143921420957}
   - component: {fileID: 6638989143921420954}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vent 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1963,7 +2665,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 10cfc96ddc10cf040bf0674ff9299d02, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b381cf6a27b794d47a76ba9fe1fd9910, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1984,7 +2686,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144019452702}
   - component: {fileID: 6638989144019452703}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stairs Top L (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2045,7 +2747,7 @@ SpriteRenderer:
   m_SortingLayerID: 523447151
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5ad59a671b4e5ab4baf56c7b89e8abd4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 202e689c68f8e0a43b3513f7e097a037, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2066,7 +2768,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144023936649}
   - component: {fileID: 6638989144023936694}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Door (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2124,8 +2826,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: fd81efbba3b336443905e44c54f6feb6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2148,7 +2850,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144042827567}
   - component: {fileID: 6638989144042827564}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: moving box asset (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2206,8 +2908,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2d7ae1ffdd6d17a4bb4841829c6ed894, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2230,7 +2932,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144055867073}
   - component: {fileID: 6638989144055867086}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: door asset (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2288,8 +2990,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f15357b2e4c7d364882b289498afbf5f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2312,7 +3014,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144068150621}
   - component: {fileID: 6638989144068150618}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: door asset (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2370,8 +3072,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f15357b2e4c7d364882b289498afbf5f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2394,7 +3096,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144093590415}
   - component: {fileID: 6638989144093590412}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vent 5 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2455,7 +3157,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f4ac415a90c497545837a09b87129091, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e5fd2ce5d075f584fa32f2ce9691fe65, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2476,7 +3178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144145543144}
   - component: {fileID: 6638989144145543145}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vent 5 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2534,10 +3236,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f4ac415a90c497545837a09b87129091, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e5fd2ce5d075f584fa32f2ce9691fe65, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2558,7 +3260,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144159835484}
   - component: {fileID: 6638989144159835485}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: cardboard_box (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2619,7 +3321,7 @@ SpriteRenderer:
   m_SortingLayerID: 523447151
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 93ee7d5f46dc86e4b89b41377dad1922, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 434dada0f98028c409bccce1185383a7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2640,7 +3342,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144173651873}
   - component: {fileID: 6638989144173651886}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vent 9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2699,10 +3401,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7b166a8466a738d4c9452e9f2f2fb512, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f7e0cd9b525a7b14992f704a6d116c68, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2723,7 +3425,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144205491737}
   - component: {fileID: 6638989144205491718}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ceiling light asset (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2781,8 +3483,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1851939855
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: bdf07ae1beec21f4a9337713235d30cb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2805,7 +3507,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144208034634}
   - component: {fileID: 6638989144208034635}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stairs Top R (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2866,7 +3568,7 @@ SpriteRenderer:
   m_SortingLayerID: 523447151
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 969bcbed6d1ddd348be5f7d73ed57690, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3a13e8f49be25054ab7b086d5db6ef5d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2887,7 +3589,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144235843477}
   - component: {fileID: 6638989144235843474}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stairs Top R (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2948,7 +3650,7 @@ SpriteRenderer:
   m_SortingLayerID: 523447151
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 969bcbed6d1ddd348be5f7d73ed57690, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3a13e8f49be25054ab7b086d5db6ef5d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2969,7 +3671,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144251213559}
   - component: {fileID: 6638989144251213556}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stairs Top R (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3030,7 +3732,7 @@ SpriteRenderer:
   m_SortingLayerID: 523447151
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 969bcbed6d1ddd348be5f7d73ed57690, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3a13e8f49be25054ab7b086d5db6ef5d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3051,7 +3753,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144252233906}
   - component: {fileID: 6638989144252233907}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: cardboard_box (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3112,7 +3814,7 @@ SpriteRenderer:
   m_SortingLayerID: 523447151
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 93ee7d5f46dc86e4b89b41377dad1922, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 434dada0f98028c409bccce1185383a7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3133,7 +3835,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144252625894}
   - component: {fileID: 6638989144252625895}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stairs Top R (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3194,7 +3896,7 @@ SpriteRenderer:
   m_SortingLayerID: 523447151
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 969bcbed6d1ddd348be5f7d73ed57690, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3a13e8f49be25054ab7b086d5db6ef5d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3215,7 +3917,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144270044745}
   - component: {fileID: 6638989144270044790}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: battery asset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3297,7 +3999,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144275685627}
   - component: {fileID: 6638989144275685624}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Master_bed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3379,7 +4081,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144281773835}
   - component: {fileID: 6638989144281773832}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stairs Top R (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3440,7 +4142,7 @@ SpriteRenderer:
   m_SortingLayerID: 523447151
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 969bcbed6d1ddd348be5f7d73ed57690, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3a13e8f49be25054ab7b086d5db6ef5d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3461,7 +4163,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144283934272}
   - component: {fileID: 6638989144283934273}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stairs Top R (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3522,7 +4224,7 @@ SpriteRenderer:
   m_SortingLayerID: 523447151
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 969bcbed6d1ddd348be5f7d73ed57690, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3a13e8f49be25054ab7b086d5db6ef5d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3543,7 +4245,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144292111527}
   - component: {fileID: 6638989144292111524}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: battery asset (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3601,8 +4303,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 3de65378d33b926479f8b887474d8300, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3625,7 +4327,12 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144293954945}
   - component: {fileID: 6638989144293954958}
-  m_Layer: 0
+  - component: {fileID: 479411166}
+  - component: {fileID: 479411167}
+  - component: {fileID: 479411168}
+  - component: {fileID: 479411169}
+  - component: {fileID: 479411170}
+  m_Layer: 6
   m_Name: room 13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3699,6 +4406,136 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &479411166
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144293954959}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -7.344123, y: 5.4264784}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.8}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.511755, y: 1.1269765}
+  m_EdgeRadius: 0
+--- !u!61 &479411167
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144293954959}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 4.2856183, y: 5.424284}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.8}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 10.628764, y: 1.0168667}
+  m_EdgeRadius: 0
+--- !u!61 &479411168
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144293954959}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -9.057499, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.8}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.085002, y: 10.8}
+  m_EdgeRadius: 0
+--- !u!61 &479411169
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144293954959}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -5.7496595}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.8}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 19.2, y: 1.3826346}
+  m_EdgeRadius: 0
+--- !u!61 &479411170
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144293954959}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 9.010352, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.8}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.1792965, y: 10.8}
+  m_EdgeRadius: 0
 --- !u!1 &6638989144303818825
 GameObject:
   m_ObjectHideFlags: 0
@@ -3709,7 +4546,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144303818827}
   - component: {fileID: 6638989144303818824}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vent 5 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3767,10 +4604,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f4ac415a90c497545837a09b87129091, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e5fd2ce5d075f584fa32f2ce9691fe65, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3791,7 +4628,11 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144334292514}
   - component: {fileID: 6638989144334292515}
-  m_Layer: 0
+  - component: {fileID: 191795880}
+  - component: {fileID: 191795881}
+  - component: {fileID: 191795882}
+  - component: {fileID: 191795883}
+  m_Layer: 6
   m_Name: StartingRoom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3860,17 +4701,121 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3c647284eb8cb7d47850bf76c073964a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2d3ac7d78a2f6e44e99786da86033c76, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 19.2, y: 5.97}
+  m_Size: {x: 19.2, y: 10.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &191795880
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144334292512}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 2.8300607}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 5.97}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 19.2, y: 0.30987883}
+  m_EdgeRadius: 0
+--- !u!61 &191795881
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144334292512}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 9.027124, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 5.97}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.145752, y: 5.97}
+  m_EdgeRadius: 0
+--- !u!61 &191795882
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144334292512}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -2.830061}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 5.97}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 19.2, y: 0.30987835}
+  m_EdgeRadius: 0
+--- !u!61 &191795883
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144334292512}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -9.027117, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 5.97}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.1457682, y: 5.97}
+  m_EdgeRadius: 0
 --- !u!1 &6638989144335415518
 GameObject:
   m_ObjectHideFlags: 0
@@ -3881,7 +4826,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144335415504}
   - component: {fileID: 6638989144335415505}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stairs Top R (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3942,7 +4887,7 @@ SpriteRenderer:
   m_SortingLayerID: 523447151
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 969bcbed6d1ddd348be5f7d73ed57690, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3a13e8f49be25054ab7b086d5db6ef5d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3963,7 +4908,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144347364562}
   - component: {fileID: 6638989144347364563}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Small_bed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4045,7 +4990,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144394992184}
   - component: {fileID: 6638989144394992185}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cardboard_boxes (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4103,8 +5048,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 5ecf2fd7f2cc4094297fa2daf14edf97, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4127,7 +5072,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144405067026}
   - component: {fileID: 6638989144405067027}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vent 5 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4185,10 +5130,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f4ac415a90c497545837a09b87129091, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e5fd2ce5d075f584fa32f2ce9691fe65, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4209,7 +5154,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144406423750}
   - component: {fileID: 6638989144406423751}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stairs Top R (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4270,7 +5215,7 @@ SpriteRenderer:
   m_SortingLayerID: 523447151
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 969bcbed6d1ddd348be5f7d73ed57690, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3a13e8f49be25054ab7b086d5db6ef5d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4291,7 +5236,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144415674162}
   - component: {fileID: 6638989144415674163}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: enemy char. 1 updated copy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4373,7 +5318,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144415818325}
   - component: {fileID: 6638989144415818322}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: small_book_self (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4431,8 +5376,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 737abd58386fb03498e6eadf4d1dcd27, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4455,7 +5400,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144417946359}
   - component: {fileID: 6638989144417946356}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4513,8 +5458,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 3c612df0451a9c74990fb080c7048752, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4537,7 +5482,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144426682016}
   - component: {fileID: 6638989144426682017}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stairs Top L (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4598,7 +5543,7 @@ SpriteRenderer:
   m_SortingLayerID: 523447151
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5ad59a671b4e5ab4baf56c7b89e8abd4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 202e689c68f8e0a43b3513f7e097a037, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4619,7 +5564,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144429597845}
   - component: {fileID: 6638989144429597842}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cardboard_boxes (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4677,8 +5622,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 5ecf2fd7f2cc4094297fa2daf14edf97, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4701,7 +5646,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144433148477}
   - component: {fileID: 6638989144433148474}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stairs Top R (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4762,7 +5707,7 @@ SpriteRenderer:
   m_SortingLayerID: 523447151
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 969bcbed6d1ddd348be5f7d73ed57690, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3a13e8f49be25054ab7b086d5db6ef5d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4783,7 +5728,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144435159277}
   - component: {fileID: 6638989144435159274}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: enemy char. 1 updated copy (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4865,7 +5810,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144436452616}
   - component: {fileID: 6638989144436452617}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ceiling light asset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4923,8 +5868,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: bdf07ae1beec21f4a9337713235d30cb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4947,7 +5892,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144441618565}
   - component: {fileID: 6638989144441618562}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: small_book_self (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5005,8 +5950,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 737abd58386fb03498e6eadf4d1dcd27, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5029,7 +5974,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144442187422}
   - component: {fileID: 6638989144442187423}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stairs Top L (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5090,7 +6035,7 @@ SpriteRenderer:
   m_SortingLayerID: 523447151
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5ad59a671b4e5ab4baf56c7b89e8abd4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 202e689c68f8e0a43b3513f7e097a037, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5111,7 +6056,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144464783421}
   - component: {fileID: 6638989144464783420}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hole (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5193,7 +6138,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144465151076}
   - component: {fileID: 6638989144465151077}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vent 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5256,7 +6201,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7ce766235b216da48afa91527ddef706, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4277e7f9b8bc4cb409ba9bc179dd1be2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5277,7 +6222,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144490801976}
   - component: {fileID: 6638989144490801977}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: cardboard_box (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5338,7 +6283,7 @@ SpriteRenderer:
   m_SortingLayerID: 523447151
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 93ee7d5f46dc86e4b89b41377dad1922, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 434dada0f98028c409bccce1185383a7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5359,7 +6304,11 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144507238969}
   - component: {fileID: 6638989144507238950}
-  m_Layer: 0
+  - component: {fileID: 987301451}
+  - component: {fileID: 987301452}
+  - component: {fileID: 987301453}
+  - component: {fileID: 987301454}
+  m_Layer: 6
   m_Name: room 16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5421,7 +6370,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: a4a13c813d3d576408ee2fb2c60f6949, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 83c4f96eefafffd449512bde75a42177, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5432,6 +6381,110 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &987301451
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144507238951}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -6.5814695}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 12.85}
+    newSize: {x: 19.2, y: 12.85}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 19.2, y: 1.1345325}
+  m_EdgeRadius: 0
+--- !u!61 &987301452
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144507238951}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 10.064177, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 12.85}
+    newSize: {x: 19.2, y: 12.85}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.337265, y: 12.85}
+  m_EdgeRadius: 0
+--- !u!61 &987301453
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144507238951}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -9.464321, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 12.85}
+    newSize: {x: 19.2, y: 12.85}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.270874, y: 12.85}
+  m_EdgeRadius: 0
+--- !u!61 &987301454
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144507238951}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 6.7624063}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 12.85}
+    newSize: {x: 19.2, y: 12.85}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 19.2, y: 1.3154674}
+  m_EdgeRadius: 0
 --- !u!1 &6638989144520093907
 GameObject:
   m_ObjectHideFlags: 0
@@ -5442,7 +6495,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144520093909}
   - component: {fileID: 6638989144520093906}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Balcony L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5500,10 +6553,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7862ff32423c35e48aa1d67689f6253b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 08a9f8e01e8f42548bd6e5d37145b1c3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5524,7 +6577,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144521326743}
   - component: {fileID: 6638989144521326742}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hole (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5606,7 +6659,11 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144569724950}
   - component: {fileID: 6638989144569724951}
-  m_Layer: 0
+  - component: {fileID: 35437306}
+  - component: {fileID: 35437307}
+  - component: {fileID: 35437308}
+  - component: {fileID: 35437309}
+  m_Layer: 6
   m_Name: room 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5686,6 +6743,110 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &35437306
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144569724948}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -3.220727, y: 5.214656}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.8}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 12.758547, y: 0.756969}
+  m_EdgeRadius: 0
+--- !u!61 &35437307
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144569724948}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 9.051073, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.8}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.0978546, y: 10.8}
+  m_EdgeRadius: 0
+--- !u!61 &35437308
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144569724948}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -8.968437, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.8}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.0650206, y: 10.8}
+  m_EdgeRadius: 0
+--- !u!61 &35437309
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144569724948}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -5.330559}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.8}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 19.2, y: 0.6797595}
+  m_EdgeRadius: 0
 --- !u!1 &6638989144576022165
 GameObject:
   m_ObjectHideFlags: 0
@@ -5696,7 +6857,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144576022167}
   - component: {fileID: 6638989144576022164}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vent 5 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5757,7 +6918,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f4ac415a90c497545837a09b87129091, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e5fd2ce5d075f584fa32f2ce9691fe65, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5778,7 +6939,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144576993754}
   - component: {fileID: 6638989144576993755}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stairs Top R (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5839,7 +7000,7 @@ SpriteRenderer:
   m_SortingLayerID: 523447151
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 969bcbed6d1ddd348be5f7d73ed57690, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3a13e8f49be25054ab7b086d5db6ef5d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5860,7 +7021,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144598515308}
   - component: {fileID: 6638989144598515309}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vent 5 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5918,10 +7079,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f4ac415a90c497545837a09b87129091, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e5fd2ce5d075f584fa32f2ce9691fe65, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5942,7 +7103,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144628809581}
   - component: {fileID: 6638989144628809578}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hole (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6024,7 +7185,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144633906508}
   - component: {fileID: 6638989144633906509}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: door asset (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6082,8 +7243,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f15357b2e4c7d364882b289498afbf5f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6106,7 +7267,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144643588184}
   - component: {fileID: 6638989144643588185}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vent 5 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6164,10 +7325,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f4ac415a90c497545837a09b87129091, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e5fd2ce5d075f584fa32f2ce9691fe65, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6188,7 +7349,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144647722678}
   - component: {fileID: 6638989144647722679}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Door (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6246,8 +7407,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: fd81efbba3b336443905e44c54f6feb6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6270,7 +7431,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144668805925}
   - component: {fileID: 6638989144668805922}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: battery asset (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6328,8 +7489,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 3de65378d33b926479f8b887474d8300, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6352,7 +7513,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144684794538}
   - component: {fileID: 6638989144684794539}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Balcony R (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6410,10 +7571,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: dc039418666cf244aa529e509bc3e589, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9fdda969366202a46abb32da8eb6d9dd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6434,7 +7595,11 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144684905300}
   - component: {fileID: 6638989144684905301}
-  m_Layer: 0
+  - component: {fileID: 1334874642}
+  - component: {fileID: 1334874643}
+  - component: {fileID: 1334874644}
+  - component: {fileID: 1334874645}
+  m_Layer: 6
   m_Name: room 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6502,7 +7667,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 46a3dba489dc95f44a6883ec03fbd208, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3636d6c0a622e9f4b9a9189b8ce36574, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6513,6 +7678,110 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1334874642
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144684905298}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 3.4805405, y: 3.6598992}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 7.29}
+    newSize: {x: 19.2, y: 7.29}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 12.238913, y: 0.46091652}
+  m_EdgeRadius: 0
+--- !u!61 &1334874643
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144684905298}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -7.3298798, y: 3.6598992}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 7.29}
+    newSize: {x: 19.2, y: 7.29}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.540241, y: 0.46091652}
+  m_EdgeRadius: 0
+--- !u!61 &1334874644
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144684905298}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -9.094949, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 7.29}
+    newSize: {x: 19.2, y: 7.29}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.3789005, y: 7.29}
+  m_EdgeRadius: 0
+--- !u!61 &1334874645
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144684905298}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 9.0510235, y: -0.23550749}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 7.29}
+    newSize: {x: 19.2, y: 7.29}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.0979538, y: 7.761015}
+  m_EdgeRadius: 0
 --- !u!1 &6638989144687254956
 GameObject:
   m_ObjectHideFlags: 0
@@ -6523,7 +7792,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144687254958}
   - component: {fileID: 6638989144687254959}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stairs Top R (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6584,7 +7853,7 @@ SpriteRenderer:
   m_SortingLayerID: 523447151
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 969bcbed6d1ddd348be5f7d73ed57690, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3a13e8f49be25054ab7b086d5db6ef5d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6605,7 +7874,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144695953005}
   - component: {fileID: 6638989144695953002}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: small_book_self
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6663,8 +7932,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 737abd58386fb03498e6eadf4d1dcd27, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6687,7 +7956,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144713227365}
   - component: {fileID: 6638989144713227362}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: small_book_self (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6745,8 +8014,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 737abd58386fb03498e6eadf4d1dcd27, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6769,7 +8038,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144726945368}
   - component: {fileID: 6638989144726945369}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stairs Top L (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6830,7 +8099,7 @@ SpriteRenderer:
   m_SortingLayerID: 523447151
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5ad59a671b4e5ab4baf56c7b89e8abd4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 202e689c68f8e0a43b3513f7e097a037, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6851,7 +8120,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144730387399}
   - component: {fileID: 6638989144730387396}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stairs Top R (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6912,7 +8181,7 @@ SpriteRenderer:
   m_SortingLayerID: 523447151
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 969bcbed6d1ddd348be5f7d73ed57690, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3a13e8f49be25054ab7b086d5db6ef5d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6933,7 +8202,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144734949707}
   - component: {fileID: 6638989144734949704}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: cardboard_box (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6994,7 +8263,7 @@ SpriteRenderer:
   m_SortingLayerID: 523447151
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 93ee7d5f46dc86e4b89b41377dad1922, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 434dada0f98028c409bccce1185383a7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7015,7 +8284,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144737425474}
   - component: {fileID: 6638989144737425475}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: small_book_self (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7073,8 +8342,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 737abd58386fb03498e6eadf4d1dcd27, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7097,7 +8366,11 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144785553195}
   - component: {fileID: 6638989144785553192}
-  m_Layer: 0
+  - component: {fileID: 705189542}
+  - component: {fileID: 705189543}
+  - component: {fileID: 705189544}
+  - component: {fileID: 705189545}
+  m_Layer: 6
   m_Name: room 17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7170,6 +8443,110 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &705189542
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144785553193}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -8.989887, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.8}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.132534, y: 10.8}
+  m_EdgeRadius: 0
+--- !u!61 &705189543
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144785553193}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 5.482374}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.8}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 19.2, y: 1.4398456}
+  m_EdgeRadius: 0
+--- !u!61 &705189544
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144785553193}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -5.57792}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.8}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 19.2, y: 1.0959506}
+  m_EdgeRadius: 0
+--- !u!61 &705189545
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144785553193}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 9.033757, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.8}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.623506, y: 10.8}
+  m_EdgeRadius: 0
 --- !u!1 &6638989144798203590
 GameObject:
   m_ObjectHideFlags: 0
@@ -7180,7 +8557,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144798203608}
   - component: {fileID: 6638989144798203609}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: small_book_self (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7238,8 +8615,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1851939855
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 737abd58386fb03498e6eadf4d1dcd27, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7262,7 +8639,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144798571726}
   - component: {fileID: 6638989144798571727}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: cardboard_box (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7320,10 +8697,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 93ee7d5f46dc86e4b89b41377dad1922, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 434dada0f98028c409bccce1185383a7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7343,7 +8720,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6638989144807099324}
-  m_Layer: 0
+  - component: {fileID: 765085906}
+  - component: {fileID: 765085907}
+  - component: {fileID: 765085908}
+  - component: {fileID: 765085909}
+  - component: {fileID: 765085910}
+  - component: {fileID: 765085911}
+  - component: {fileID: 765085912}
+  m_Layer: 6
   m_Name: Vents 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7377,6 +8761,188 @@ Transform:
   m_Father: {fileID: 6638989143660525403}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &765085906
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144807099325}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -12.908994, y: -9.7246065}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.96, y: 0.96}
+    newSize: {x: 0.96, y: 0.96}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 16.462835, y: 0.69862175}
+  m_EdgeRadius: 0
+--- !u!61 &765085907
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144807099325}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -20.7165, y: -15.192877}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.96, y: 0.96}
+    newSize: {x: 0.96, y: 0.96}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.77668, y: 11.765019}
+  m_EdgeRadius: 0
+--- !u!61 &765085908
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144807099325}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -14.829756, y: -15.19289}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.96, y: 0.96}
+    newSize: {x: 0.96, y: 0.96}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.582615, y: 4.6903076}
+  m_EdgeRadius: 0
+--- !u!61 &765085909
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144807099325}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -10.91711, y: -13.197046}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.96, y: 0.96}
+    newSize: {x: 0.96, y: 0.96}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 12.407906, y: 0.69861984}
+  m_EdgeRadius: 0
+--- !u!61 &765085910
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144807099325}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -8.960785, y: -15.19289}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.96, y: 0.96}
+    newSize: {x: 0.96, y: 0.96}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.7411127, y: 4.6903076}
+  m_EdgeRadius: 0
+--- !u!61 &765085911
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144807099325}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.15733337, y: -17.172508}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.96, y: 0.96}
+    newSize: {x: 0.96, y: 0.96}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 18.348015, y: 0.7310734}
+  m_EdgeRadius: 0
+--- !u!61 &765085912
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144807099325}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -6.0290365, y: -20.701147}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 30.060286, y: 0.74178696}
+  m_EdgeRadius: 0
 --- !u!1 &6638989144827184511
 GameObject:
   m_ObjectHideFlags: 0
@@ -7387,7 +8953,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144827184497}
   - component: {fileID: 6638989144827184510}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Broken_Stairs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7469,7 +9035,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144834442068}
   - component: {fileID: 6638989144834442069}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vent 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7527,10 +9093,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c5b55c99a6684184da455c93c66cea8a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b163fbcbaa8d78942803bfed1911c6a3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7551,7 +9117,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144868685714}
   - component: {fileID: 6638989144868685715}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Small_table
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7609,8 +9175,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 08883a7a3ba29464c98b6681d8a337fc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7633,7 +9199,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144875108879}
   - component: {fileID: 6638989144875108876}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Exitdoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7691,8 +9257,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f15357b2e4c7d364882b289498afbf5f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7715,7 +9281,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144888803800}
   - component: {fileID: 6638989144888803801}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: cardboard_box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7776,7 +9342,7 @@ SpriteRenderer:
   m_SortingLayerID: 523447151
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 93ee7d5f46dc86e4b89b41377dad1922, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 434dada0f98028c409bccce1185383a7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7797,7 +9363,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144889645745}
   - component: {fileID: 6638989144889645758}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: enemy char. 1 updated copy (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7879,7 +9445,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144890747534}
   - component: {fileID: 6638989144890747535}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Door (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7937,8 +9503,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: fd81efbba3b336443905e44c54f6feb6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7961,7 +9527,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144890880920}
   - component: {fileID: 6638989144890880921}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: battery asset (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8043,7 +9609,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144894525440}
   - component: {fileID: 6638989144894525441}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: small_book_self (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8101,8 +9667,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1851939855
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 737abd58386fb03498e6eadf4d1dcd27, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8125,7 +9691,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144904583048}
   - component: {fileID: 6638989144904583049}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Door (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8183,8 +9749,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: fd81efbba3b336443905e44c54f6feb6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8207,7 +9773,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144906661881}
   - component: {fileID: 6638989144906661862}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Teddy_bear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8265,8 +9831,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -325948057
-  m_SortingLayer: 3
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b987feaa3dd39954cb5da31c41548b5f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8289,7 +9855,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144913279811}
   - component: {fileID: 6638989144913279808}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Small_table (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8347,8 +9913,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 08883a7a3ba29464c98b6681d8a337fc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8371,7 +9937,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144914861553}
   - component: {fileID: 6638989144914861566}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stairs Top L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8432,7 +9998,7 @@ SpriteRenderer:
   m_SortingLayerID: 523447151
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5ad59a671b4e5ab4baf56c7b89e8abd4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 202e689c68f8e0a43b3513f7e097a037, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8453,7 +10019,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144935332538}
   - component: {fileID: 6638989144935332539}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: cardboard_box (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8514,7 +10080,7 @@ SpriteRenderer:
   m_SortingLayerID: 523447151
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 93ee7d5f46dc86e4b89b41377dad1922, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 434dada0f98028c409bccce1185383a7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8535,7 +10101,11 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144973572610}
   - component: {fileID: 6638989144973572611}
-  m_Layer: 0
+  - component: {fileID: 36966693}
+  - component: {fileID: 36966694}
+  - component: {fileID: 36966695}
+  - component: {fileID: 36966696}
+  m_Layer: 6
   m_Name: room 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8605,7 +10175,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 46a3dba489dc95f44a6883ec03fbd208, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3636d6c0a622e9f4b9a9189b8ce36574, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8616,6 +10186,110 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &36966693
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144973572608}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 9.0622425, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 7.29}
+    newSize: {x: 19.2, y: 7.29}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.0755167, y: 7.29}
+  m_EdgeRadius: 0
+--- !u!61 &36966694
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144973572608}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -9.040922, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 7.29}
+    newSize: {x: 19.2, y: 7.29}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.1181555, y: 7.29}
+  m_EdgeRadius: 0
+--- !u!61 &36966695
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144973572608}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -3.3166118}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 7.29}
+    newSize: {x: 19.2, y: 7.29}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 19.2, y: 0.6567764}
+  m_EdgeRadius: 0
+--- !u!61 &36966696
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144973572608}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 3.8098552}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 7.29}
+    newSize: {x: 19.2, y: 7.29}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 19.2, y: 0.8268571}
+  m_EdgeRadius: 0
 --- !u!1 &6638989144985413531
 GameObject:
   m_ObjectHideFlags: 0
@@ -8626,7 +10300,11 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144985413533}
   - component: {fileID: 6638989144985413530}
-  m_Layer: 0
+  - component: {fileID: 258516423}
+  - component: {fileID: 258516424}
+  - component: {fileID: 258516425}
+  - component: {fileID: 258516426}
+  m_Layer: 6
   m_Name: room 18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8693,7 +10371,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3c647284eb8cb7d47850bf76c073964a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2d3ac7d78a2f6e44e99786da86033c76, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8704,6 +10382,110 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &258516423
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144985413531}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 2.9291792}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 5.97}
+    newSize: {x: 19.2, y: 5.97}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 19.2, y: 0.5756693}
+  m_EdgeRadius: 0
+--- !u!61 &258516424
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144985413531}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 9.041509, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 5.97}
+    newSize: {x: 19.2, y: 5.97}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.1169834, y: 5.97}
+  m_EdgeRadius: 0
+--- !u!61 &258516425
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144985413531}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -2.8639262}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 5.97}
+    newSize: {x: 19.2, y: 5.97}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 19.2, y: 0.3581586}
+  m_EdgeRadius: 0
+--- !u!61 &258516426
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989144985413531}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -9.041506, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 5.97}
+    newSize: {x: 19.2, y: 5.97}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.1169891, y: 5.97}
+  m_EdgeRadius: 0
 --- !u!1 &6638989144992176470
 GameObject:
   m_ObjectHideFlags: 0
@@ -8714,7 +10496,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144992177832}
   - component: {fileID: 6638989144992177833}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vent 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8772,10 +10554,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f4ac415a90c497545837a09b87129091, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e5fd2ce5d075f584fa32f2ce9691fe65, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8796,7 +10578,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989144993343461}
   - component: {fileID: 6638989144993343458}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hole (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8878,7 +10660,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145021404487}
   - component: {fileID: 6638989145021404484}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: moving box asset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8936,8 +10718,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2d7ae1ffdd6d17a4bb4841829c6ed894, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8960,7 +10742,11 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145030040801}
   - component: {fileID: 6638989145030040814}
-  m_Layer: 0
+  - component: {fileID: 511595760}
+  - component: {fileID: 511595761}
+  - component: {fileID: 511595762}
+  - component: {fileID: 511595763}
+  m_Layer: 6
   m_Name: end room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9030,7 +10816,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 46a3dba489dc95f44a6883ec03fbd208, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3636d6c0a622e9f4b9a9189b8ce36574, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9041,6 +10827,110 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &511595760
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989145030040815}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 4.573428}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 7.29}
+    newSize: {x: 19.2, y: 7.29}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 19.2, y: 2.417954}
+  m_EdgeRadius: 0
+--- !u!61 &511595761
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989145030040815}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -9.03619, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 7.29}
+    newSize: {x: 19.2, y: 7.29}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.1276207, y: 7.29}
+  m_EdgeRadius: 0
+--- !u!61 &511595762
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989145030040815}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 9.036192, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 7.29}
+    newSize: {x: 19.2, y: 7.29}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.1276178, y: 7.29}
+  m_EdgeRadius: 0
+--- !u!61 &511595763
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989145030040815}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -3.5990274}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 7.29}
+    newSize: {x: 19.2, y: 7.29}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 19.2, y: 1.223516}
+  m_EdgeRadius: 0
 --- !u!1 &6638989145053713513
 GameObject:
   m_ObjectHideFlags: 0
@@ -9051,7 +10941,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145053713515}
   - component: {fileID: 6638989145053713512}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stairs Top L (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9112,7 +11002,7 @@ SpriteRenderer:
   m_SortingLayerID: 523447151
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5ad59a671b4e5ab4baf56c7b89e8abd4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 202e689c68f8e0a43b3513f7e097a037, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9133,7 +11023,11 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145070146441}
   - component: {fileID: 6638989145070146486}
-  m_Layer: 0
+  - component: {fileID: 1003655080}
+  - component: {fileID: 1003655081}
+  - component: {fileID: 1003655082}
+  - component: {fileID: 1003655083}
+  m_Layer: 6
   m_Name: room 15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9207,6 +11101,110 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1003655080
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989145070146487}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 8.743467, y: -3.6749992}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.19, y: 8.83}
+    newSize: {x: 19.19, y: 8.83}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.7030678, y: 1.4800014}
+  m_EdgeRadius: 0
+--- !u!61 &1003655081
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989145070146487}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 4.248733}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.19, y: 8.83}
+    newSize: {x: 19.19, y: 8.83}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 19.19, y: 0.7667103}
+  m_EdgeRadius: 0
+--- !u!61 &1003655082
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989145070146487}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 9.067296, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.19, y: 8.83}
+    newSize: {x: 19.19, y: 8.83}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.0554066, y: 8.83}
+  m_EdgeRadius: 0
+--- !u!61 &1003655083
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989145070146487}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -9.045713, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.19, y: 8.83}
+    newSize: {x: 19.19, y: 8.83}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.0985756, y: 8.83}
+  m_EdgeRadius: 0
 --- !u!1 &6638989145114719487
 GameObject:
   m_ObjectHideFlags: 0
@@ -9217,7 +11215,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145114719486}
   - component: {fileID: 6638989145114719473}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hole
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9299,7 +11297,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145139348308}
   - component: {fileID: 6638989145139348309}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cardboard_boxes (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9357,8 +11355,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 5ecf2fd7f2cc4094297fa2daf14edf97, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9380,7 +11378,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6638989145143845543}
-  m_Layer: 0
+  - component: {fileID: 776361638}
+  - component: {fileID: 776361639}
+  - component: {fileID: 776361640}
+  m_Layer: 6
   m_Name: vent 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9403,6 +11404,84 @@ Transform:
   m_Father: {fileID: 6638989143660525403}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &776361638
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989145143845540}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 20.601875, y: 0.17953873}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.0897675, y: 6.1168137}
+  m_EdgeRadius: 0
+--- !u!61 &776361639
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989145143845540}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 15.597282, y: -2.3564224}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 11.098953, y: 1.0448914}
+  m_EdgeRadius: 0
+--- !u!61 &776361640
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989145143845540}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 15.597282, y: 2.693058}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 11.098953, y: 1.0897751}
+  m_EdgeRadius: 0
 --- !u!1 &6638989145153130627
 GameObject:
   m_ObjectHideFlags: 0
@@ -9413,7 +11492,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145153130629}
   - component: {fileID: 6638989145153130626}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: cardboard_box (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9474,7 +11553,7 @@ SpriteRenderer:
   m_SortingLayerID: 523447151
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 93ee7d5f46dc86e4b89b41377dad1922, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 434dada0f98028c409bccce1185383a7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9495,7 +11574,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145170412002}
   - component: {fileID: 6638989145170412003}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vent 6 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9556,7 +11635,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e8ff7a8f3b0c14b4aa8a4ee267e14c9d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: de0672848949e914ea2f99bd5a43cc76, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9577,7 +11656,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145179655695}
   - component: {fileID: 6638989145179655692}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9635,8 +11714,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1851939855
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: fd81efbba3b336443905e44c54f6feb6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9659,7 +11738,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145189092948}
   - component: {fileID: 6638989145189092949}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ceiling light asset (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9717,8 +11796,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: bdf07ae1beec21f4a9337713235d30cb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9741,7 +11820,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145195637811}
   - component: {fileID: 6638989145195637808}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stairs Top R (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9802,7 +11881,7 @@ SpriteRenderer:
   m_SortingLayerID: 523447151
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 969bcbed6d1ddd348be5f7d73ed57690, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3a13e8f49be25054ab7b086d5db6ef5d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9823,7 +11902,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145212919670}
   - component: {fileID: 6638989145212919671}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: moving box asset (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9881,8 +11960,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2d7ae1ffdd6d17a4bb4841829c6ed894, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9905,7 +11984,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145234160583}
   - component: {fileID: 6638989145234160580}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: small_book_self (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9963,8 +12042,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1851939855
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 737abd58386fb03498e6eadf4d1dcd27, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9987,7 +12066,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145236990647}
   - component: {fileID: 6638989145236990644}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: cardboard_box (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10048,7 +12127,7 @@ SpriteRenderer:
   m_SortingLayerID: 523447151
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 93ee7d5f46dc86e4b89b41377dad1922, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 434dada0f98028c409bccce1185383a7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10069,7 +12148,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145269856596}
   - component: {fileID: 6638989145269856597}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vent 7 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10130,7 +12209,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c5b55c99a6684184da455c93c66cea8a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b163fbcbaa8d78942803bfed1911c6a3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10151,7 +12230,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145294159920}
   - component: {fileID: 6638989145294159921}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: door asset (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10209,8 +12288,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f15357b2e4c7d364882b289498afbf5f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -10233,7 +12312,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145330695310}
   - component: {fileID: 6638989145330695311}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Small_table (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10291,8 +12370,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 08883a7a3ba29464c98b6681d8a337fc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -10314,7 +12393,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6638989145368861683}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: vents 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10349,7 +12428,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145383674559}
   - component: {fileID: 6638989145383674556}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stairs Top R (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10410,7 +12489,7 @@ SpriteRenderer:
   m_SortingLayerID: 523447151
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 969bcbed6d1ddd348be5f7d73ed57690, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3a13e8f49be25054ab7b086d5db6ef5d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10431,7 +12510,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145400483237}
   - component: {fileID: 6638989145400483234}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mirror asset (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10489,8 +12568,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: fa47a935fe549ac49b62fbae6c7a11bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -10513,7 +12592,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145429600469}
   - component: {fileID: 6638989145429600466}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stairs Top L (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10574,7 +12653,7 @@ SpriteRenderer:
   m_SortingLayerID: 523447151
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5ad59a671b4e5ab4baf56c7b89e8abd4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 202e689c68f8e0a43b3513f7e097a037, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10595,7 +12674,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145433206781}
   - component: {fileID: 6638989145433206778}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: enemy char. 1 updated copy (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10677,7 +12756,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145443682746}
   - component: {fileID: 6638989145443682747}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: small_book_self (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10735,8 +12814,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 737abd58386fb03498e6eadf4d1dcd27, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -10759,7 +12838,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145479581619}
   - component: {fileID: 6638989145479581616}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stairs Top R (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10820,7 +12899,7 @@ SpriteRenderer:
   m_SortingLayerID: 523447151
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 969bcbed6d1ddd348be5f7d73ed57690, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3a13e8f49be25054ab7b086d5db6ef5d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10841,7 +12920,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145480421189}
   - component: {fileID: 6638989145480421186}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stairs Top L (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10902,7 +12981,7 @@ SpriteRenderer:
   m_SortingLayerID: 523447151
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5ad59a671b4e5ab4baf56c7b89e8abd4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 202e689c68f8e0a43b3513f7e097a037, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10923,7 +13002,12 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145480734048}
   - component: {fileID: 6638989145480734049}
-  m_Layer: 0
+  - component: {fileID: 1669284811}
+  - component: {fileID: 1669284812}
+  - component: {fileID: 1669284813}
+  - component: {fileID: 1669284814}
+  - component: {fileID: 1669284815}
+  m_Layer: 6
   m_Name: room 11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10989,7 +13073,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3c647284eb8cb7d47850bf76c073964a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2d3ac7d78a2f6e44e99786da86033c76, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -11000,6 +13084,136 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1669284811
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989145480734062}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 9.492772, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 5.97}
+    newSize: {x: 19.2, y: 5.97}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.8511257, y: 5.97}
+  m_EdgeRadius: 0
+--- !u!61 &1669284812
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989145480734062}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 7.0582066, y: -5.234621}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 5.97}
+    newSize: {x: 19.2, y: 5.97}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.0835876, y: 5.077269}
+  m_EdgeRadius: 0
+--- !u!61 &1669284813
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989145480734062}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -3.5802503, y: -4.368944}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 5.97}
+    newSize: {x: 19.2, y: 5.97}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 12.0395, y: 3.4000406}
+  m_EdgeRadius: 0
+--- !u!61 &1669284814
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989145480734062}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -9.288216, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 5.97}
+    newSize: {x: 19.2, y: 5.97}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.523839, y: 5.97}
+  m_EdgeRadius: 0
+--- !u!61 &1669284815
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989145480734062}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 3.083959}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 5.97}
+    newSize: {x: 19.2, y: 5.97}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 19.2, y: 0.7759628}
+  m_EdgeRadius: 0
 --- !u!1 &6638989145495389219
 GameObject:
   m_ObjectHideFlags: 0
@@ -11010,7 +13224,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145495389221}
   - component: {fileID: 6638989145495389218}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: moving box asset (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11068,8 +13282,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2d7ae1ffdd6d17a4bb4841829c6ed894, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -11092,7 +13306,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145498658546}
   - component: {fileID: 6638989145498658547}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bathtub
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11150,8 +13364,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b25560058935fed41a93158064ceacb0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -11174,7 +13388,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145510861321}
   - component: {fileID: 6638989145510861320}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hole (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11256,7 +13470,12 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145517678505}
   - component: {fileID: 6638989145517678166}
-  m_Layer: 0
+  - component: {fileID: 1272968584}
+  - component: {fileID: 1272968585}
+  - component: {fileID: 1272968586}
+  - component: {fileID: 1272968587}
+  - component: {fileID: 1272968588}
+  m_Layer: 6
   m_Name: room 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11335,6 +13554,136 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1272968584
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989145517678167}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -3.0830727, y: 5.3629713}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.8}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 12.186611, y: 1.1377873}
+  m_EdgeRadius: 0
+--- !u!61 &1272968585
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989145517678167}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 7.813578, y: 5.3629713}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.8}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.5728445, y: 1.1377983}
+  m_EdgeRadius: 0
+--- !u!61 &1272968586
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989145517678167}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -9.555193, y: -0.04432106}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.8}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.0666504, y: 10.711359}
+  m_EdgeRadius: 0
+--- !u!61 &1272968587
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989145517678167}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -5.3843126}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.8}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 19.2, y: 0.5893321}
+  m_EdgeRadius: 0
+--- !u!61 &1272968588
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989145517678167}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 9.036392, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.8}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.1272154, y: 10.8}
+  m_EdgeRadius: 0
 --- !u!1 &6638989145524079621
 GameObject:
   m_ObjectHideFlags: 0
@@ -11345,7 +13694,11 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145524079623}
   - component: {fileID: 6638989145524079620}
-  m_Layer: 0
+  - component: {fileID: 126002048}
+  - component: {fileID: 126002049}
+  - component: {fileID: 126002050}
+  - component: {fileID: 126002051}
+  m_Layer: 6
   m_Name: room 14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11412,7 +13765,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 46a3dba489dc95f44a6883ec03fbd208, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3636d6c0a622e9f4b9a9189b8ce36574, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -11423,6 +13776,110 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &126002048
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989145524079621}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 9.044132, y: 2.5323346}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 7.29}
+    newSize: {x: 19.2, y: 7.29}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.1117363, y: 2.2253308}
+  m_EdgeRadius: 0
+--- !u!61 &126002049
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989145524079621}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -2.824416, y: 3.6143293}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 7.29}
+    newSize: {x: 19.2, y: 7.29}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 13.551168, y: 0.61384106}
+  m_EdgeRadius: 0
+--- !u!61 &126002050
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989145524079621}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 9.014088, y: -2.3942094}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 7.29}
+    newSize: {x: 19.2, y: 7.29}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.1718254, y: 2.5015812}
+  m_EdgeRadius: 0
+--- !u!61 &126002051
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638989145524079621}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -9.044139, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 7.29}
+    newSize: {x: 19.2, y: 7.29}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.111723, y: 7.29}
+  m_EdgeRadius: 0
 --- !u!1 &6638989145534727267
 GameObject:
   m_ObjectHideFlags: 0
@@ -11433,7 +13890,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145534727269}
   - component: {fileID: 6638989145534727266}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cardboard_boxes (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11491,8 +13948,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 5ecf2fd7f2cc4094297fa2daf14edf97, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -11515,7 +13972,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145542999351}
   - component: {fileID: 6638989145542999348}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Small_table (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11573,8 +14030,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 08883a7a3ba29464c98b6681d8a337fc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -11597,7 +14054,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145547264454}
   - component: {fileID: 6638989145547264455}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vent 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11656,10 +14113,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e8ff7a8f3b0c14b4aa8a4ee267e14c9d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: de0672848949e914ea2f99bd5a43cc76, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -11680,7 +14137,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145558174750}
   - component: {fileID: 6638989145558174751}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vent 6 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11741,7 +14198,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e8ff7a8f3b0c14b4aa8a4ee267e14c9d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: de0672848949e914ea2f99bd5a43cc76, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -11762,7 +14219,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145609478424}
   - component: {fileID: 6638989145609478425}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: door asset (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11820,8 +14277,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f15357b2e4c7d364882b289498afbf5f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -11844,7 +14301,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145609524345}
   - component: {fileID: 6638989145609524326}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vent 14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11902,10 +14359,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3b7468dc6dded81429dfce9885250ca3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 404eaf246d3e1124ba754225e03e81f0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -11926,7 +14383,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145611178384}
   - component: {fileID: 6638989145611178385}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cardboard_boxes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11984,8 +14441,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 5ecf2fd7f2cc4094297fa2daf14edf97, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -12008,7 +14465,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145615869518}
   - component: {fileID: 6638989145615869519}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hole (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12090,7 +14547,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145626750600}
   - component: {fileID: 6638989145626750601}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ceiling light asset (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12148,8 +14605,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: bdf07ae1beec21f4a9337713235d30cb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -12172,7 +14629,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145627028877}
   - component: {fileID: 6638989145627028874}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: vent asset (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12230,8 +14687,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8043707b89317374697fb75fc3d22ba8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -12254,7 +14711,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145654772261}
   - component: {fileID: 6638989145654772258}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lever 1 asset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12336,7 +14793,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145673244345}
   - component: {fileID: 6638989145673244326}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cardboard_boxes (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12394,8 +14851,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 5ecf2fd7f2cc4094297fa2daf14edf97, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -12418,7 +14875,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638989145679160145}
   - component: {fileID: 6638989145679160158}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Balcony R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12476,10 +14933,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 523447151
+  m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: dc039418666cf244aa529e509bc3e589, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9fdda969366202a46abb32da8eb6d9dd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
