@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3404161656149610337}
   m_Layer: 0
   m_Name: Battery
-  m_TagString: Untagged
+  m_TagString: Battery
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -122,4 +122,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdeb305ff375af44ba3747c713fc2d5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 5077930423961620447, guid: b63c965d2df7d1344985f29160025cf8, type: 3}
