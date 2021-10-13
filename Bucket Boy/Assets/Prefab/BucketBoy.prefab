@@ -30,7 +30,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5077930423961620447}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 26.97, y: 10.49, z: 0}
+  m_LocalPosition: {x: 153.93729, y: 22.205784, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5077930425016398282}
@@ -143,7 +143,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sightDistance: 2
-  playerBody: {fileID: 5077930423961620420}
   grabbers: {fileID: 5077930425129366495}
 --- !u!95 &5077930423961620416
 Animator:
