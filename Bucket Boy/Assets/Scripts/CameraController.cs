@@ -6,7 +6,18 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
 
-    [SerializeField] private Transform playerTransform;
+    public Transform playerTransform;
+    public float smoothSpeed = 3f;
+    public Vector3 offset;
+
+    void LateUpdate() 
+    {
+        Vector3 desiredPosition = playerTransform.position + offset;
+        Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed * Time.deltaTime);
+        transform.position = smoothedPosition;
+    }
+    
+    /*[SerializeField] private Transform playerTransform;
     private Camera _camera;
     [SerializeField] private float maxHiegtOfCamera = 411;
     [SerializeField] private float minHeightOfCamera = 0;
@@ -34,5 +45,5 @@ public class CameraController : MonoBehaviour
     private void Awake()
     {
         _camera = Camera.main;
-    }
+    }*/
 }
