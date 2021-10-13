@@ -8,63 +8,14 @@ using UnityEngine.Serialization;
 
 public class Flashlight : MonoBehaviour
 {
-    
-    
-    [SerializeField]private Transform playerTransform;
+    [SerializeField] private Transform playerTransform;
     [SerializeField] float offset = 0f;
-    [SerializeField]private int batteryLife = 100;
-    
-    [Range( 0f, 8f )] public float distanceFromGoal = 1;
-    
+    [Range( 0f, 80f )] public float distanceFromGoal = 1f;
     private Camera cam;
     private Rigidbody2D bodyOfFlashligt;
     private Rigidbody2D rigidBodyofParent;
-
     private Vector2 movement;
     private Vector2 mousePos;
-
-    void Update()
-    {
-
-
-        Vector2 goalPos = playerTransform.position;
-        Vector2 mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
-        
-        // Lochal Position of flashlight from player pos and mouse pos.
-        Vector2 relPlayerPos = mousePos - goalPos;
-        Vector2 dirToPlayer = relPlayerPos.normalized;
-
-        
-        
-        Vector2 thingPos = dirToPlayer * distanceFromGoal; // calculate dot position along the direction
-        Vector2 lokDir = mousePos - rigidBodyofParent.position;
-        float angle = Mathf.Atan2(lokDir.y, lokDir.x) * Mathf.Rad2Deg + offset;
-        bodyOfFlashligt.rotation = angle;
-        transform.position = goalPos + thingPos;
-        
-
-        
-        
-        if (Input.GetButton("Fire2"))
-        {
-            gameObject.SetActive(true);
-            if (batteryLife <1)
-            {
-                
-                // Light2D flashlightLigt = gameObject.GetComponentInChildren<GameObject>().gameObject.GetComponent<Light2D>();
-                // flashlightLigt.pointLightOuterRadius = 0;
-            }
-            
-        }
-        else
-        {
-            
-            gameObject.SetActive(false);
-        }
-    }
-    
-
-
 
     private void Awake()
     {
@@ -74,9 +25,30 @@ public class Flashlight : MonoBehaviour
         bodyOfFlashligt = transform.GetComponent<Rigidbody2D>();
     }
 
-    public void PlayerDies()
+    void Update()
     {
-        SceneManager.LoadScene(2);
+        Vector2 goalPos = playerTransform.position;
+        Vector2 mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+        
+        // Lochal Position of flashlight from player pos and mouse pos.
+        Vector2 relPlayerPos = mousePos - goalPos;
+        Vector2 dirToPlayer = relPlayerPos.normalized;
+        
+        Vector2 thingPos = dirToPlayer * distanceFromGoal; // calculate dot position along the direction
+        Vector2 lokDir = mousePos - rigidBodyofParent.position;
+        float angle = Mathf.Atan2(lokDir.y, lokDir.x) * Mathf.Rad2Deg + offset;
+        bodyOfFlashligt.rotation = angle;
+        transform.position = goalPos + thingPos;
+        
+        if (Input.GetButton("Fire2"))
+        {
+            gameObject.SetActive(true);
+        }
+        else
+        {
+            gameObject.SetActive(false);
+        }
     }
-    
+
+
 }

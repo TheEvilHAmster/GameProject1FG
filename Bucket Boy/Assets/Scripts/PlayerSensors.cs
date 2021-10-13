@@ -8,11 +8,13 @@ public class PlayerSensors : MonoBehaviour
     private bool isFacingLeft;
     private Vector2 facingDirection;
     public Transform grabbers;
+    public GameObject flashlight;
 
     void Start() 
     {
-        isFacingLeft = false;   
+        isFacingLeft = false;  
     }
+    
     void Update() 
     {   
         PlayerSight();
@@ -57,12 +59,14 @@ public class PlayerSensors : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.A))
         {
-            this.transform.localRotation = Quaternion.Euler(0, 180, 0);
+            this.transform.localRotation = Quaternion.Euler(0, -180, 0);
+            flashlight.transform.localRotation = Quaternion.Euler(0, -180, 0);
             isFacingLeft = true;
         }
         else if (Input.GetKeyDown(KeyCode.D)) 
         {
             this.transform.localRotation = Quaternion.Euler(0, 0, 0);
+            flashlight.transform.localRotation = Quaternion.Euler(0, 0, 0);
             isFacingLeft = false;
         }
     }
