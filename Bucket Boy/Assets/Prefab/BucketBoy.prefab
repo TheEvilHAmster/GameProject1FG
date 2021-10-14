@@ -146,6 +146,7 @@ MonoBehaviour:
   sightDistance: 2
   grabbers: {fileID: 5077930425129366495}
   flashlight: {fileID: 5077930425016398278}
+  animator: {fileID: 5077930423961620416}
 --- !u!95 &5077930423961620416
 Animator:
   serializedVersion: 3
@@ -207,6 +208,9 @@ MonoBehaviour:
   currentBatteryLevel: 0
   batteryLevel: {fileID: 0}
   Battery: {fileID: 3404161656149610336, guid: a21c88d9f23adba41adb57a60608f778, type: 3}
+  flashlightUsage: 0.02
+  batteryPickup: 20
+  enemyPowerDrain: 10
 --- !u!1 &5077930424561523834
 GameObject:
   m_ObjectHideFlags: 0
@@ -431,7 +435,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 5077930424948820040}
   offset: 0
-  batteryLife: 100
   distanceFromGoal: 0.4
 --- !u!1 &5077930425129366494
 GameObject:
