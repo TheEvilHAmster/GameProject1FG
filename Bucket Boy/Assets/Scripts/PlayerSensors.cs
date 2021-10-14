@@ -9,10 +9,13 @@ public class PlayerSensors : MonoBehaviour
     private Vector2 facingDirection;
     public Transform grabbers;
     public GameObject flashlight;
+    public Animator animator;
+    private bool isGrabbing;
 
     void Start() 
     {
-        isFacingLeft = false;  
+        isFacingLeft = false;
+        isGrabbing = false;  
     }
     
     void Update() 
@@ -45,13 +48,18 @@ public class PlayerSensors : MonoBehaviour
         {
             if (Input.GetButton("Fire1"))
             {
+                isGrabbing = true;
+                animator.SetBool("Grabbing", isGrabbing);
                 environmentInfo.collider.gameObject.transform.parent = grabbers;
                 environmentInfo.collider.gameObject.transform.position = grabbers.position;
-                environmentInfo.collider.gameObject.GetComponent<Rigidbody2D>().isKinematic = true;
+                environmentInfo.collider.gameObject.GetComponent<Rigidbody2D>().isKinematic = true;   
             } else {
-               environmentInfo.collider.gameObject.transform.parent = null;
-               environmentInfo.collider.gameObject.GetComponent<Rigidbody2D>().isKinematic = false;
-            }
+                isGrabbing = false;
+                animator.SetBool("Grabbing", isGrabbing);
+                environmentInfo.collider.gameObject.transform.parent = null;
+                environmentInfo.collider.gameObject.GetComponent<Rigidbody2D>().isKinematic = false;
+                
+            }  
         }
     }
 
