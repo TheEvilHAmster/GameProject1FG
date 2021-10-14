@@ -47,11 +47,13 @@ public class PlayerStats : MonoBehaviour
             {
                 currentBatteryLevel = maxBatteryLevel;
             }
+            batteryLevel.SetBatteryLevel(currentBatteryLevel);
             Destroy(collisionInfo.gameObject);
         }
         else if(collisionInfo.gameObject.tag == "Enemy")
         {
-            currentBatteryLevel -= enemyPowerDrain;     
+            currentBatteryLevel -= enemyPowerDrain;
+            batteryLevel.SetBatteryLevel(currentBatteryLevel);     
         }
     }
 }
