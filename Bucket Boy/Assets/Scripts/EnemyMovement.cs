@@ -35,28 +35,36 @@ public class EnemyMovement : MonoBehaviour
 
     private void PatrollingPlatform()
     {
-        transform.Translate(Vector2.right * enemySpeed * Time.deltaTime);  
+        transform.Translate(Vector2.right * enemySpeed * Time.deltaTime);
         RaycastHit2D groundInfo = Physics2D.Raycast(
             groundDetection.position, 
             Vector2.down, 
             yDistance);
-        
+
         RaycastHit2D wallInfo = Physics2D.Raycast(
             groundDetection.position, 
             Vector2.right, 
             xDistance);
-          
 
-        if (groundInfo.collider == false || wallInfo.collider == false) 
+        if (groundInfo.collider == false) 
         {
-            if(movingRight == true)
-            {
-                transform.eulerAngles = new Vector3( 0, -180 , 0 );
-                movingRight = false;
-            } else {
-                transform.eulerAngles = new Vector3( 0, 0, 0 );
-                movingRight = true;
-            }
+            TurnAround();
+        }
+        else if(wallInfo.collider == true)
+        {
+            TurnAround();
+        }
+    }
+
+    private void TurnAround()
+    {
+        if(movingRight == true)
+        {
+            transform.eulerAngles = new Vector3( 0, -180 , 0 );
+            movingRight = false;
+        } else {
+            transform.eulerAngles = new Vector3( 0, 0, 0 );
+            movingRight = true;
         }
     }
 
