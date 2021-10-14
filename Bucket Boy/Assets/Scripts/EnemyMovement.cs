@@ -42,7 +42,7 @@ public class EnemyMovement : MonoBehaviour
         RaycastHit2D groundInfo = Physics2D.Raycast(
             groundDetection.position, 
             Vector2.down, 
-            distance);  
+            distance+1);  
 
         if (groundInfo.collider == false) 
         {
