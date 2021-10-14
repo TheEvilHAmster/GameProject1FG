@@ -5,19 +5,16 @@ using UnityEngine;
 public class EnemyMovement : MonoBehaviour
 {
     public float enemySpeed = 2f;
-    public float distance;
+    public float xDistance;
+    public float yDistance;
     public float chaseRange = 5f;
     private bool movingRight = true;
-
     public Transform groundDetection;
     private bool enemyUnaware;
-
     public GameObject player;
-
     public Vector3 direction;
     private Rigidbody2D enemyBody;
     
-
     private void Start() 
     {
         enemyUnaware = true;
@@ -42,9 +39,15 @@ public class EnemyMovement : MonoBehaviour
         RaycastHit2D groundInfo = Physics2D.Raycast(
             groundDetection.position, 
             Vector2.down, 
-            distance+1);  
+            yDistance);
+        
+        RaycastHit2D wallInfo = Physics2D.Raycast(
+            groundDetection.position, 
+            Vector2.right, 
+            xDistance);
+          
 
-        if (groundInfo.collider == false) 
+        if (groundInfo.collider == false || wallInfo.collider == false) 
         {
             if(movingRight == true)
             {
