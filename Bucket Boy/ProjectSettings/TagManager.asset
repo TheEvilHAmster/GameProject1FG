@@ -9,6 +9,7 @@ TagManager:
   - Exit
   - Moveable
   - Battery
+  - Enemy
   layers:
   - Default
   - TransparentFX
